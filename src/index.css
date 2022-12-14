@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&display=swap'); 
+
+* {
+    margin: 0 auto;
+    font-family: "Khula";
+    color: #475467;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-style: normal;
+    line-height: 24px;
+    box-shadow: 0px 4px 70px rgba(30, 40, 52, 0.08);
+}
+
+.navbar .links {
+    margin-left: 800px;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 16px;
+    padding: 6px;
+
+}
+
+.navbar a:nth-child(2) {
+    background: #1D2939;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 6px 12px;
+}
+
+.about {
+    width: 970px;
+    margin: 80px auto 110px;
+    /* width: 50px; */
+}
+
+.about div:nth-child(1) {
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -4px;
+    text-align: center;
+    background: linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent; 
+    line-height: 80px;  
+}
+
+.about div:nth-child(2) {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    color: #475467;
+    margin-top: 20px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 255px 80px;
+    gap: 20px;
+    background: #F2F4F7;
+}
+
+.post-preview {
+    display: flex;
+    width: 980px;
+    flex-direction: row;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.posts-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-list {
+    font-weight: 700;
+    font-size: 26px;   
+    color: #1D2939; 
+}
+
+.text-section {
+    padding: 41px 50px 41px 30px;
+}
+
+.post-date {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.post-title {
+    font-weight: 700;
+    letter-spacing: -1px;
+    font-size: 26px;
+    line-height: 130%; /* or 34px */
+    color: #1D2939;
+    margin-top: 20px;
+}
+
+.post-description {
+    line-height: 150%;
+    margin-top: 10px;
+}
+
+.post-pic {
+    margin: 24px 20px;
+    width: 300px;
+    height: 210px;
+    border-radius: 10px;
+}
